@@ -9,5 +9,7 @@
 import '../css/app.css';
 import $ from 'jquery';
 import getNiceMessage from './get_nice_message';
+// uncomment if you have legacy code that needs global variables
+//global.$ = $;
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js'+'!'.repeat(5));
