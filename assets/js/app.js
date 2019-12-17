@@ -8,7 +8,7 @@
 // any CSS you require will output into a single css file (app.css in this case)
 import '../css/app.css';
 import $ from 'jquery';
-import getNiceMessage from './get_nice_message';
+import 'bootstrap'; // adds functions to jQuery
 // uncomment if you have legacy code that needs global variables
 //global.$ = $;
 
