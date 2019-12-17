@@ -12,4 +12,10 @@ import getNiceMessage from './get_nice_message';
 // uncomment if you have legacy code that needs global variables
 //global.$ = $;
 
-console.log('Hello Webpack Encore! Edit me in assets/js/app.js'+'!'.repeat(5));
+$('.dropdown-toggle').dropdown();
+$('.custom-file-input').on('change', function(event) {
+	var inputFile = event.currentTarget;
+	$(inputFile).parent()
+		.find('.custom-file-label')
+		.html(inputFile.files[0].name);
+});
