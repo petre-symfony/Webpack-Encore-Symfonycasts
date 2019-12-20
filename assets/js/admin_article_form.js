@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import Dropzone from 'dropzone';
+import 'dropzone/dist/dropzone.css';
 import Sortable from 'sortablejs';
 
 Dropzone.autoDiscover = false;
