@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 $(document).ready(function() {
   $('.js-like-article').on('click', function(e) {
     e.preventDefault();
