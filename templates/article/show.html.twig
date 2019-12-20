@@ -83,3 +83,9 @@
 
   {{ encore_entry_script_tags('article_show') }}
 {% endblock %}
+
+{% block stylesheets %}
+  {{ parent() }}
+
+  {{ encore_entry_link_tags('article_show') }}
+{% endblock %}
