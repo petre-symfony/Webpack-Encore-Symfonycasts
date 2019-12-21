@@ -47,6 +47,8 @@ $(document).ready(function() {
 // todo - use Webpack Encore so ES6 syntax is transpiled to ES5
 class ReferenceList {
   constructor($element) {
+    var stuff = new WeakSet([]);
+    
     this.$element = $element;
     this.sortable = Sortable.create(this.$element[0], {
       handle: '.drag-handle',
