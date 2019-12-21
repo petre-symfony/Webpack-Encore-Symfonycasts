@@ -1,6 +1,6 @@
 import '../css/article_show.scss';
 import $ from 'jquery';
-import 'bootstrap';
+//import 'bootstrap';
 
 $(document).ready(function() {
   $('.js-like-article').tooltip();
