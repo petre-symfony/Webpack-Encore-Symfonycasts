@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import 'autocomplete.js/dist/autocomplete.jquery';
+import '../../css/algolia-autocomplete.scss';
 
 $(document).ready(function() {
     $('.js-user-autocomplete').each(function() {
