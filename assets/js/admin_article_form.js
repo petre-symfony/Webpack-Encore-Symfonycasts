@@ -11,7 +11,7 @@ $(document).ready(function() {
   if(!$autoComplete.is(':disabled')){
     autocomplete($autoComplete, 'users', 'email');
   }
-  
+
   const $referenceList = $('.js-reference-list');
   if ($referenceList[0]) {
     var referenceList = new ReferenceList($('.js-reference-list'));
