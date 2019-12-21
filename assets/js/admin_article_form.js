@@ -11,7 +11,7 @@ $(document).ready(function() {
     //start loading animation
     import('./components/algolia-autocomplete').then((autocomplete) => {
       //stop loading animation
-      autocomplete($autoComplete, 'users', 'email');
+      autocomplete.default($autoComplete, 'users', 'email');
     });
   }
 
