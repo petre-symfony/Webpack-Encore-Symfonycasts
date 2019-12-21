@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import autocomplete from 'autocomplete.js';
+import 'autocomplete.js/dist/autocomplete.jquery';
 
 $(document).ready(function() {
     $('.js-user-autocomplete').each(function() {
